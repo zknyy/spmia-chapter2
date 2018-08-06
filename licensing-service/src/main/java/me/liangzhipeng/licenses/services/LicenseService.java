@@ -1,9 +1,10 @@
-package com.thoughtmechanix.licenses.services;
-
-import com.thoughtmechanix.licenses.model.License;
-import org.springframework.stereotype.Service;
+package me.liangzhipeng.licenses.services;
 
 import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import me.liangzhipeng.licenses.model.License;
 
 @Service
 public class LicenseService {

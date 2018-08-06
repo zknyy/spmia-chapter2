@@ -1,4 +1,4 @@
-package com.thoughtmechanix.licenses.controllers;
+package me.liangzhipeng.licenses.controllers;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.thoughtmechanix.licenses.model.License;
-import com.thoughtmechanix.licenses.services.LicenseService;
+import me.liangzhipeng.licenses.model.License;
+import me.liangzhipeng.licenses.services.LicenseService;
 
 @RestController
 @RequestMapping(value="v1/organizations/{organizationId}/licenses")
